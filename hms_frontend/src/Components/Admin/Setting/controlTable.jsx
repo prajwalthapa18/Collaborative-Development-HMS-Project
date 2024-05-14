@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import style from "./setting.module.css";
 import HandelAccept from "./handelAccpet.jsx";
 
+// Control page function
 function ControlTable({ forWho }) {
   const [loading, setLoading] = useState(true); // Add loading state
   const [error, setError] = useState(null); // Add error state
